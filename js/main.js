@@ -1,19 +1,23 @@
-// * How many days have you lived?
+// ------------- Exercise 1 --------------- //
+// How many days have you lived?
 
 console.log('365 days for year: ', 25 * 365, 'days')
 
 console.log('30 day for month: ', 30 * 12 * 25, 'days')
 
-// * with a 4GB USB Memory, How many pictures of 3MB of size
-// * could be saved? 
+// ------------- Exercise 2 --------------- //
+/* with a 4GB USB Memory, How many pictures of 3MB of size
+   could be saved?
+*/
 
 var memorySizeInGB = 4 * 1024
 var pictureSize = 3
 
 console.log(memorySizeInGB / pictureSize)
 
-// * Parking with 22 lots, with space for 3 cars and 2 trucks each lot
-/* 
+// ------------- Exercise 3 --------------- //
+/* Parking with 22 lots, with space for 3 cars and 2 trucks each lot
+
   with 130 cars and 57 trucks
 
   how many lots are full?
