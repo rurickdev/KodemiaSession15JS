@@ -35,8 +35,4 @@ if ((typeof numberOne === 'number') && (typeof numberTwo === 'number')) {
   console.log('One of the numbers its not a number')
 }
 
-// This exercise needs cycles, so i will try
-// Using the primes of Fermant
-// if (( && (productOFOneAndTwo > 40)) {
-//   console.log('The product it\'s prime and gretter than 40')
-}
+// This exercise needs cycles
