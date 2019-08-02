@@ -31,7 +31,16 @@ var birthCitySection
   = birthCity.charAt(0).toUpperCase()
   + birthCity.charAt(birthCity.indexOf(' ') + 1).toUpperCase()
 
-var curp = (nameSection + birthDateSection + genderSection + birthCitySection)
-  .toUpperCase()
+var curp = `${nameSection}${birthDateSection}${genderSection}${birthCitySection}`
 
-console.log(curp)
+console.log(curp.toLocaleUpperCase())
+
+//* --------------- Homework 1 ------------ *//
+
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+var i = 0
+
+while (i < numbers.length) {
+  console.log(numbers[i] ** 2)
+  i++
+}
