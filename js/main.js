@@ -14,7 +14,6 @@ var normalicedName = ''
 
 do {
   normalicedName = `${normalicedName}${name2[index2]}`
-  // normalicedName = normalicedName.concat(name2[index2])
   index2--
 } while (index2 >= 0)
 
