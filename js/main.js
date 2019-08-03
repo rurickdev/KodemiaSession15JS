@@ -38,9 +38,9 @@ console.log(curp.toLocaleUpperCase())
 //* --------------- Homework 1 ------------ *//
 
 var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-var i = 0
+var index = 0
 
-while (i < numbers.length) {
-  console.log(numbers[i] ** 2)
-  i++
+while (index < numbers.length) {
+  console.log(numbers[index] ** 2)
+  index++
 }
