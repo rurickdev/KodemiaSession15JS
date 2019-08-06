@@ -16,12 +16,21 @@ let employeesWithAbsentDays = [
   ['Perengano', 5],
   ['Sultano', 0]]
 
+function formatSalary(salary) {
+  let comaPosition = -3
+  for (let index = 0; index < ((salary.length / 4) - 0.75); index++) {
+    salary = `${salary.slice((-salary.length), comaPosition)},${salary.slice(comaPosition)}`
+    comaPosition -= 4
+  }
+  return salary
+}
+
 for (let index = 0; index < employeesWithAbsentDays.length; index++) {
   let currentEmployeeName = employeesWithAbsentDays[index][0]
   let currentEmployeeAbsentDays = employeesWithAbsentDays[index][1]
   let salaryDiscount = ((currentEmployeeAbsentDays * 2) / 100) * MONTHLY_SALARY
   let discountedSalary = MONTHLY_SALARY - salaryDiscount
-
+  let formatedDiscountedSalary = formatSalary(discountedSalary)
   console.log(`${currentEmployeeName}: \$${discountedSalary}.00`)
 }
 
