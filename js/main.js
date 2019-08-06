@@ -1,23 +1,23 @@
 //* ------------------- Excercise 1 -------------- *//
-// var name = 'Hector'
-// var index = name.length - 1
+var name = 'Hector'
+var index = name.length - 1
 
-// do {
-//   console.log(name[name.length - (index + 1)])
-//   index--
-// } while (index >= 0)
+do {
+  console.log(name[name.length - (index + 1)])
+  index--
+} while (index >= 0)
 
 //* ------------------- Excercise 2 -------------- *//
-// var name2 = 'rotceH'
-// var index2 = name2.length - 1
-// var normalicedName = String()
+var name2 = 'rotceH'
+var index2 = name2.length - 1
+var normalicedName = String()
 
-// do {
-//   normalicedName = `${normalicedName}${name2[index2]}`
-//   index2--
-// } while (index2 >= 0)
+do {
+  normalicedName = `${normalicedName}${name2[index2]}`
+  index2--
+} while (index2 >= 0)
 
-// console.log(normalicedName)
+console.log(normalicedName)
 
 //* ------------------- Excercise 3 -------------- *//
 // check if the {word} has al least 3 vowels
@@ -49,23 +49,24 @@ if (vowelsQuantity < 3) {
 //  check that {numberOne} sould be less than {numberTwo}
 //  check that both are positives
 
-var numberOne = 7
-var numberTwo = 25
+var numberOne = -10
+var numberTwo = -5
 var mutiplierQuantity = 0
 
-if (numberOne < 0) {
-  console.error('Error numberOne should be positive')
-} else if (numberTwo < 0) {
-  console.error('Error numberTwo should be positive')
-} else if (numberOne > numberTwo) {
-  console.error('Error numberTwo should be bigger than numberOne')
-} else {
-  for (let index = numberOne; index <= numberTwo; index++) {
-    let multiplier = index % 8
-    if (multiplier === 0) {
-      mutiplierQuantity++
+if (numberTwo > numberOne) {
+  if (numberOne > 0) {
+    for (let index = numberOne; index <= numberTwo; index++) {
+      let multiplier = index % 8
+      if (multiplier === 0) {
+        mutiplierQuantity++
+      }
     }
+    console.log(`There are ${mutiplierQuantity} multipliers in the range [${numberOne}, ${numberTwo}]`)
+  } else if (numberTwo < 0) {
+    console.error('ERROR: numberTwo should be positive')
+  } else {
+    console.error('ERROR: numberOne should be positive')
   }
-  console.log(`There are ${mutiplierQuantity} multipliers 
-    in the range[${numberOne}, ${numberTwo}]`)
+} else {
+  console.error('Error numberTwo should be bigger than numberOne')
 }
