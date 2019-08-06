@@ -36,13 +36,15 @@ let paysheet = [['Thelma', 5], ['Irving', 3], ['Hector', 1]]
 
 function getDiscountedSalary(discountPercent) {
   return MONTHLY_SALARY_TWO - (MONTHLY_SALARY_TWO * (discountPercent / 100))
-
 }
 
-for (let index in paysheet) {
-  let worker = paysheet[index]
-  let totalDiscountPercent = worker[1] * DISCOUNT_PERCENT_TWO
-  let finalSalary = getDiscountedSalary(totalDiscountPercent)
-  console.log(`${worker[0]}: $${finalSalary}`);
+function showListOfDiscountedEmployees() {
+  for (let index in paysheet) {
+    let worker = paysheet[index]
+    let totalDiscountPercent = worker[1] * DISCOUNT_PERCENT_TWO
+    let finalSalary = getDiscountedSalary(totalDiscountPercent)
+    console.log(`${worker[0]}: $${finalSalary}`)
+  }
 }
 
+showListOfDiscountedEmployees()
