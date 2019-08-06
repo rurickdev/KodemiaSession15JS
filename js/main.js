@@ -17,10 +17,18 @@ let employeesWithAbsentDays = [
   ['Sultano', 0]]
 
 function formatSalary(salary) {
-  for (let index = -3; -index < salary.length; index -= 4) {
-    salary = `${salary.slice((-salary.length), index)},${salary.slice(index)}`
+  for (let comaPoistion = -3; -comaPoistion < salary.length; comaPoistion -= 4) {
+    salary = `${salary.slice((-salary.length), comaPoistion)},${salary.slice(comaPoistion)}`
   }
   return salary
+}
+
+function formatSalaryWhile(salary) {
+  let comaPoistion = -3
+  while (-comaPoistion < salary.length) {
+    salary = `${salary.slice((-salary.length), comaPoistion)},${salary.slice(comaPoistion)}`
+    comaPoistion -= 4
+  }
 }
 
 for (let index = 0; index < employeesWithAbsentDays.length; index++) {
