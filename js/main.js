@@ -16,11 +16,13 @@ let employeesWithAbsentDays = [
   ['Perengano', 5],
   ['Sultano', 0]]
 
-function formatSalary(salary) {
+// ? ------- Homework, format the salary $12,345.67 ---------- // 
+
+function formatSalaryFor(salary) {
   for (let comaPoistion = -3; -comaPoistion < salary.length; comaPoistion -= 4) {
     salary = `${salary.slice((-salary.length), comaPoistion)},${salary.slice(comaPoistion)}`
   }
-  return salary
+  return `$${salary}.00`
 }
 
 function formatSalaryWhile(salary) {
@@ -29,34 +31,37 @@ function formatSalaryWhile(salary) {
     salary = `${salary.slice((-salary.length), comaPoistion)},${salary.slice(comaPoistion)}`
     comaPoistion -= 4
   }
+  return `$${salary}.00`
 }
+
+// ? ------- Homework End --------- // 
 
 for (let index = 0; index < employeesWithAbsentDays.length; index++) {
   let currentEmployeeName = employeesWithAbsentDays[index][0]
   let currentEmployeeAbsentDays = employeesWithAbsentDays[index][1]
   let salaryDiscount = ((currentEmployeeAbsentDays * 2) / 100) * MONTHLY_SALARY
   let discountedSalary = MONTHLY_SALARY - salaryDiscount
-  let formatedDiscountedSalary = formatSalary(discountedSalary)
+  let formatedDiscountedSalary = formatSalaryFor(discountedSalary)
   console.log(`${currentEmployeeName}: \$${discountedSalary}.00`)
 }
 
-// ? ---- Homework, format the salary $12,345.67 ---------- // 
+
 
 // * -------------  Exercise 2 ---------------- * //
 //  use functions in the exercise 1
 
-const MONTHLY_SALARY_TWO = 450 * 30
-const DISCOUNT_PERCENT_TWO = 2
+const MONTHLY_SALARY_TOO = 450 * 30
+const DISCOUNT_PERCENT_TOO = 2
 let paysheet = [['Thelma', 5], ['Irving', 3], ['Hector', 1]]
 
 function getDiscountedSalary(discountPercent) {
-  return MONTHLY_SALARY_TWO - (MONTHLY_SALARY_TWO * (discountPercent / 100))
+  return MONTHLY_SALARY_TOO - (MONTHLY_SALARY_TOO * (discountPercent / 100))
 }
 
 function showListOfDiscountedEmployees() {
   for (let index in paysheet) {
     let worker = paysheet[index]
-    let totalDiscountPercent = worker[1] * DISCOUNT_PERCENT_TWO
+    let totalDiscountPercent = worker[1] * DISCOUNT_PERCENT_TOO
     let finalSalary = getDiscountedSalary(totalDiscountPercent)
     console.log(`${worker[0]}: $${finalSalary}`)
   }
