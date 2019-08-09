@@ -65,3 +65,45 @@ console.log(average)
 
 let coursWithWorstGrade = schoolGrades.reduce((a, b) => a.grade < b.grade ? a : b).course
 console.log(worstGrade)
+
+// ? ------ Homework 1 ------ ? //
+// Caesar encryption algorithm
+
+let word = 'superc alif rajilisticoz'
+
+const encrypt = (word, shift = 0) => {
+  let encryptedWord = String()
+
+  for (let index = 0; index < word.length; index++) {
+    let letterAsciiCode = word.charCodeAt(index) + shift
+    if (letterAsciiCode === (32 + shift)) {
+      letterAsciiCode -= shift
+    } else if (letterAsciiCode > 122) {
+      letterAsciiCode -= 26
+    }
+    encryptedWord = `${encryptedWord}${String.fromCharCode(letterAsciiCode)}`
+  }
+
+  return encryptedWord
+}
+
+const decrypt = (word, shift = 0) => {
+  let dencryptedWord = String()
+
+  for (let index = 0; index < word.length; index++) {
+    let letterAsciiCode = word.charCodeAt(index) - shift
+    if (letterAsciiCode === (32 - shift)) {
+      letterAsciiCode += shift
+    } else if (letterAsciiCode < 97) {
+      letterAsciiCode += 26
+    }
+    dencryptedWord = `${dencryptedWord}${String.fromCharCode(letterAsciiCode)}`
+  }
+
+  return dencryptedWord
+}
+
+const ENCRYPTED_WORD = encrypt(word, 3)
+const DECRYPTED_WORD = decrypt(ENCRYPTED_WORD, 3)
+
+console.log(`${word} => ${ENCRYPTED_WORD} => ${DECRYPTED_WORD}`)
