@@ -41,6 +41,10 @@
   * `String` methods
 
 [Clase 5 - 2019 / 08 / 05](../../tree/class/2019-08-05)
+  * Review of previus class
+  * Nested `Arrays`
+  * `Array` manipulation with `loops`
+  * Declaration and use of `functions`
 
 [Clase 6 - 2019 / 08 / 06](../../tree/class/2019-08-06)
 
