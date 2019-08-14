@@ -78,6 +78,7 @@
 #### [Class 10 - 2019 / 08 / 12](../../tree/class/2019-08-12)
   * Review of previous class
   * JavaScript Accessories
+  * Nested Objects
   * Custom `getters` and `setters`
   * Constructor function `function ObjectName (params) { paramsAsignation }`
   * Use of a `constructor` with `loops` `let newObj = new ObjectName (params)`
