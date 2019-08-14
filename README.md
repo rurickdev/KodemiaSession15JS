@@ -1,6 +1,6 @@
 # Kodemia Modulo JavaScript :octocat:
 
-#### Repository for the JavaScript classes at Kodemia taught by [David](https://github.com/DavidMoranchel)
+#### Repository for the JavaScript classes at [Kodemia](https://kodemia.mx) taught by [@David](https://github.com/DavidMoranchel)
 
 ---
 
