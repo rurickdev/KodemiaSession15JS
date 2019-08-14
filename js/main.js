@@ -87,3 +87,17 @@ const buildNodes = nodes => {
 
 buildNodes(nodes)
 
+
+// * ------ Example ------ * //
+const buildNodesAlt = (nodes, parent) => {
+  nodes.forEach(({ tag, children }) => {
+    let nodeParent = document.createElement(tag)
+    children.forEach(({ tag, text }) => {
+      let node = document.createElement(tag)
+      let textNode = document.createTextNode(text)
+      node.appendChild(textNode)
+      nodeParent.appendChild(node)
+    })
+    parent.appendChild(nodeParent)
+  })
+}
