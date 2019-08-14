@@ -1,14 +1,14 @@
 # Kodemia Modulo JavaScript :octocat:
 
-#### Repo para las clases de JavaScript de Kodemia impartido por [David](https://github.com/DavidMoranchel)
+#### Repository for the JavaScript classes at Kodemia taught by [David](https://github.com/DavidMoranchel)
 
 ---
 
-### Main Repository with initialized [index.html](index.html) [css/main.css](css/main.css) & [js/main.js](js/main.js)
+### Main Branch with initialized [index.html](index.html) [css/main.css](css/main.css) & [js/main.js](js/main.js) files
 
 ---
 
-#### [Clase 1 - 2019 / 07 / 30](../../tree/class/2019-07-30)
+#### [Class 1 - 2019 / 07 / 30](../../tree/class/2019-07-30)
   * What is `JavaScript` and his characteristics
   * Programation paradigms
   * Good practices
@@ -19,14 +19,14 @@
   * Use of arithmetic operator `+ - * / %`
   * Use of logic operators `&& || > < >= <=`
 
-#### [Clase 2 - 2019 / 07 / 31](../../tree/class/2019-07-31)
+#### [Class 2 - 2019 / 07 / 31](../../tree/class/2019-07-31)
   * Review of previus class
   * Data types and their characteristics
   * Use of `typeof` 
   * Comparation with `== !=` and `=== !==`
   * Control structure `if(condition){...} else if(condition){...} else{...}` 
 
-#### [Clase 3 - 2019 / 08 / 01](../../tree/class/2019-08-01)
+#### [Class 3 - 2019 / 08 / 01](../../tree/class/2019-08-01)
   * Review of previus class
   * Varible declaration with `let`
   * Constat declaration with `const` 
@@ -35,32 +35,32 @@
   * Introduction to `Arrays`
   * Introduction to `Loops`
 
-#### [Clase 4 - 2019 / 08 / 02](../../tree/class/2019-08-02)
+#### [Class 4 - 2019 / 08 / 02](../../tree/class/2019-08-02)
   * Review of previus class
   * Loops `while(condition){...}` `do{...}while(condition)` and `for(counter; condition; count){...}`
   * `String` manipulation with `loops` and `if(condition){...}`
   * `String` methods
 
-#### [Clase 5 - 2019 / 08 / 05](../../tree/class/2019-08-05)
+#### [Class 5 - 2019 / 08 / 05](../../tree/class/2019-08-05)
   * Review of previus class
   * Nested `Arrays`
   * `Array` manipulation with `loops`
   * Declaration and use of ES5 functions `function name (params) {...}`
   * Diferences of `return` and `non return` functions
 
-#### [Clase 6 - 2019 / 08 / 06](../../tree/class/2019-08-06)
+#### [Class 6 - 2019 / 08 / 06](../../tree/class/2019-08-06)
   * Review of previus class
   * Anonimus functions `(params) {...}` 
   * Declaration and of ES6 `Arrow Functions` `const name = (params) => {...}`
   * Definition and use of `callbacks`
 
-#### [Clase 7 - 2019 / 08 / 07](../../tree/class/2019-08-07)
+#### [Class 7 - 2019 / 08 / 07](../../tree/class/2019-08-07)
   * Review of previus class
   * `Array` and `String` methos that use callbacks
   `map()` `reduce()` `filter()` `forEach()` `some()` `every()`
   * Introduction to `Objects`
 
-#### [Clase 8 - 2019 / 08 / 08](../../tree/class/2019-08-08)
+#### [Class 8 - 2019 / 08 / 08](../../tree/class/2019-08-08)
   * Review of previus class
   * Characteristics of `Objects`
   * How to `abstract` real world elements to Objects
@@ -72,19 +72,20 @@
   * Creating custom Object methods `nameObj.method()`
   * Destructuring the objects `let { parameter } = nameObj`
 
-#### [Clase 9 - 2019 / 08 / 12](../../tree/class/2019-08-12)
+#### [Class 9 - 2019 / 08 / 12](../../tree/class/2019-08-12)
   * Review of previus class
   * JavaScript Accessories
   * Custom `getters` and `setters`
   * Constructor function `function ObjectName (params) { paramsAsignation }`
   * Use of a `constructor` with `loops` `let newObj = new ObjectName (params)`
 
-#### [Clase 10 - 2019 / 08 / 13](../../tree/class/2019-08-13)
+#### [Class 10 - 2019 / 08 / 13](../../tree/class/2019-08-13)
   * Review of previus class
   * What is the `DOM`
   * Manipulation and creation of `elements` in the `DOM`
     * Change `id` `href` `source` `class` `etc`
     * Use of `createElement()` `InnerChild()` `createTextNode()`
+  * `Event Paradigm` in JS
   * Use of JS function in HTML `Buttons`
 
-#### [Clase 11 - 2019 / 08 / 14](../../tree/class/2019-08-14)
+#### [Class 11 - 2019 / 08 / 14](../../tree/class/2019-08-14)
