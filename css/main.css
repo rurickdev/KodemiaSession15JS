@@ -1,5 +1,10 @@
 .styled-list{
   list-style: none;
+  display: inline-flex;
   background-color: black;
   color: white;
+  border-left: 1px solid red;
+}
+.styled-list li {
+  margin-left: 10px;
 }
