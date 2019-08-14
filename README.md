@@ -10,6 +10,7 @@
 
 #### [Clase 1 - 2019 / 07 / 30](../../tree/class/2019-07-30)
   * What is `JavaScript` and his characteristics
+  * Programation paradigms
   * Good practices
   * `<script>` tag
   * Link `JS` files in the `HTML`
@@ -60,6 +61,17 @@
   * Introduction to `Objects`
 
 #### [Clase 8 - 2019 / 08 / 08](../../tree/class/2019-08-08)
+  * Review of previus class
+  * Characteristics of `Objects`
+  * How to `abstract` real world elements to Objects
+  * Creation of Objects `let nameObj = { properties }`
+  * Access Object properties `nameObj.propertie` `nameObj[propertie]`
+  * Add Object properties `nameObj.newPropertie = newValue`
+  * Delete Object Properties `delete nameObj.propertie`
+  * Set new values to existing object properties `nameObj.propertie = newValue`
+  * Creating custom Object methods `nameObj.method()`
+  * Custom `getters` and `setters`
+  * Destructuring the objects `let { parameter } = nameObj`
 
 #### [Clase 9 - 2019 / 08 / 12](../../tree/class/2019-08-12)
 
