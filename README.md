@@ -80,5 +80,11 @@
   * Use of a `constructor` with `loops` `let newObj = new ObjectName (params)`
 
 #### [Clase 10 - 2019 / 08 / 13](../../tree/class/2019-08-13)
+  * Review of previus class
+  * What is the `DOM`
+  * Manipulation and creation of `elements` in the `DOM`
+    * Change `id` `href` `source` `class` `etc`
+    * Use of `createElement()` `InnerChild()` `createTextNode()`
+  * Use of JS function in HTML `Buttons`
 
 #### [Clase 11 - 2019 / 08 / 14](../../tree/class/2019-08-14)
