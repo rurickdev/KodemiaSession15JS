@@ -15,6 +15,10 @@
   * Use of logic operators `&& || > < >= <=`
 
 [Clase 2 - 2019 / 07 / 31](../../tree/class/2019-07-31)
+  * Review of previus class themes
+  * Use of `typeof` and the characteristics by data type
+  * Comparation with `== !=` and `=== !==`
+  * Control structure `if{...} else if{...} else{...}` 
 
 [Clase 3 - 2019 / 08 / 01](../../tree/class/2019-08-01)
 
