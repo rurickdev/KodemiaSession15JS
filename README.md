@@ -4,7 +4,7 @@
 
 ---
 
-### Main Repository with initialized [index.html](index.html) [css/main.css](css/main.css) & [js/main.js](js/main.js)
+### Main Repository with initialized [index.html](../index.html) [css/main.css](css/main.css) & [js/main.js](js/main.js)
 
 ---
 
