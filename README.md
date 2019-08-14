@@ -44,9 +44,14 @@
   * Review of previus class
   * Nested `Arrays`
   * `Array` manipulation with `loops`
-  * Declaration and use of `functions`
+  * Declaration and use of ES5 functions `function name (params) {...}`
+  * Diferences of `return` and `non return` functions
 
 [Clase 6 - 2019 / 08 / 06](../../tree/class/2019-08-06)
+  * Review of previus class
+  * Anonimus functions `(params) {...}` 
+  * Declaration and of ES6 `Arrow Functions` `const name = (params) => {...}`
+  * Definition and use of `callbacks`
 
 [Clase 7 - 2019 / 08 / 07](../../tree/class/2019-08-07)
 
