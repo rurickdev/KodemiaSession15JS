@@ -66,20 +66,23 @@
   * How to `abstract` real world elements to Objects
   * Creation of Objects `let nameObj = { properties }`
   * Access Object properties `nameObj.propertie` `nameObj[propertie]`
+
+#### [Class 9 - 2019 / 08 / 09](../../tree/class/2019-08-09)
+  * Review of previous class
   * Add Object properties `nameObj.newPropertie = newValue`
   * Delete Object Properties `delete nameObj.propertie`
   * Set new values to existing object properties `nameObj.propertie = newValue`
   * Creating custom Object methods `nameObj.method()`
   * Destructuring the objects `let { parameter } = nameObj`
 
-#### [Class 9 - 2019 / 08 / 12](../../tree/class/2019-08-12)
+#### [Class 10 - 2019 / 08 / 12](../../tree/class/2019-08-12)
   * Review of previous class
   * JavaScript Accessories
   * Custom `getters` and `setters`
   * Constructor function `function ObjectName (params) { paramsAsignation }`
   * Use of a `constructor` with `loops` `let newObj = new ObjectName (params)`
 
-#### [Class 10 - 2019 / 08 / 13](../../tree/class/2019-08-13)
+#### [Class 11 - 2019 / 08 / 13](../../tree/class/2019-08-13)
   * Review of previous class
   * What is the `DOM`
   * Manipulation and creation of `elements` in the `DOM`
@@ -88,4 +91,4 @@
   * `Event Paradigm` in JS
   * Use of JS function in HTML `Buttons`
 
-#### [Class 11 - 2019 / 08 / 14](../../tree/class/2019-08-14)
+#### [Class 12 - 2019 / 08 / 14](../../tree/class/2019-08-14)
