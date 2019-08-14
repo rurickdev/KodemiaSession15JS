@@ -19,22 +19,26 @@
   * Use of logic operators `&& || > < >= <=`
 
 [Clase 2 - 2019 / 07 / 31](../../tree/class/2019-07-31)
-  * Review of previus class themes
+  * Review of previus class
   * Data types and their characteristics
   * Use of `typeof` 
   * Comparation with `== !=` and `=== !==`
-  * Control structure `if{...} else if{...} else{...}` 
+  * Control structure `if(condition){...} else if(condition){...} else{...}` 
 
 [Clase 3 - 2019 / 08 / 01](../../tree/class/2019-08-01)
+  * Review of previus class
   * Varible declaration with `let`
   * Constat declaration with `const` 
-  * `String` manipulation and methods
   * String interpolation `${string}`
   * Manipulate numbers with `++` `--` `+=` `-=` `=+` `=-` 
   * Introduction to `Arrays`
   * Introduction to `Loops`
 
 [Clase 4 - 2019 / 08 / 02](../../tree/class/2019-08-02)
+  * Review of previus class
+  * Loops `while(condition){...}`, `do{...}while(condition)` and `for(counter; condition; count){...}`
+  * `String` manipulation with `loops` and `if(condition){...}`
+  * `String` methods
 
 [Clase 5 - 2019 / 08 / 05](../../tree/class/2019-08-05)
 
