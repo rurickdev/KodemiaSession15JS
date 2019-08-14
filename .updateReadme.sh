@@ -1,0 +1,11 @@
+git checkout class/2019-07-31 ; git merge master -m "update README.md" ; git push ;
+git checkout class/2019-07-31 ; git merge master -m "update README.md" ; git push ;
+git checkout class/2019-08-01 ; git merge master -m "update README.md" ; git push ;
+git checkout class/2019-08-02 ; git merge master -m "update README.md" ; git push ;
+git checkout class/2019-08-05 ; git merge master -m "update README.md" ; git push ;
+git checkout class/2019-08-06 ; git merge master -m "update README.md" ; git push ;
+git checkout class/2019-08-07 ; git merge master -m "update README.md" ; git push ;
+git checkout class/2019-08-08 ; git merge master -m "update README.md" ; git push ;
+git checkout class/2019-08-09 ; git merge master -m "update README.md" ; git push ;
+git checkout class/2019-08-12 ; git merge master -m "update README.md" ; git push ;
+git checkout class/2019-08-13 ; git merge master -m "update README.md" ; git push ;
