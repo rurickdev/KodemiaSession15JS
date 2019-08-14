@@ -58,10 +58,12 @@ let nodes = [
       {
         'tag': 'li',
         'text': 'enjoy 2'
-      }, {
+      },
+      {
         'tag': 'li',
         'text': 'enjoy 3'
-      }, {
+      },
+      {
         'tag': 'li',
         'text': 'enjoy 4'
       }
