@@ -8,7 +8,7 @@
 
 ---
 
-[Clase 1 - 2019 / 07 / 30](tree/class/2019-07-30)
+[Clase 1 - 2019 / 07 / 30](../../tree/class/2019-07-30)
 
 [Clase 1 - 2019 / 07 / 31](https://github.com/skintigth/KodemiaSession15JS/tree/class/2019-07-31)
 
