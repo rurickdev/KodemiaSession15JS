@@ -26,6 +26,8 @@
   * Control structure `if{...} else if{...} else{...}` 
 
 [Clase 3 - 2019 / 08 / 01](../../tree/class/2019-08-01)
+  * Varible declaration with `let`
+  * Constat declaration with `const` 
   * `String` manipulation and methods
   * String interpolation `${string}`
   * Manipulate numbers with `++` `--` `+=` `-=` `=+` `=-` 
