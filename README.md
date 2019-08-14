@@ -70,10 +70,14 @@
   * Delete Object Properties `delete nameObj.propertie`
   * Set new values to existing object properties `nameObj.propertie = newValue`
   * Creating custom Object methods `nameObj.method()`
-  * Custom `getters` and `setters`
   * Destructuring the objects `let { parameter } = nameObj`
 
 #### [Clase 9 - 2019 / 08 / 12](../../tree/class/2019-08-12)
+  * Review of previus class
+  * JavaScript Accessories
+  * Custom `getters` and `setters`
+  * Constructor function `function ObjectName (params) { paramsAsignation }`
+  * Use of a `constructor` with `loops` `let newObj = new ObjectName (params)`
 
 #### [Clase 10 - 2019 / 08 / 13](../../tree/class/2019-08-13)
 
