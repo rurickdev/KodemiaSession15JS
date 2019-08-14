@@ -21,6 +21,10 @@
   * Control structure `if{...} else if{...} else{...}` 
 
 [Clase 3 - 2019 / 08 / 01](../../tree/class/2019-08-01)
+  * `String` manipulation and methods
+  * String interpolation `${string}`
+  * Manipulate numbers with `++` `--` `+=` `-=` `=+` `=-` 
+  * Introduction to `Arrays`
 
 [Clase 4 - 2019 / 08 / 02](../../tree/class/2019-08-02)
 
