@@ -9,6 +9,10 @@
 ---
 
 [Clase 1 - 2019 / 07 / 30](../../tree/class/2019-07-30)
+  * What is `JavaScript` and his characteristics
+  * Good practices
+  * `<script>` tag
+  * Link `JS` files in the `HTML`
   * Use of the `Console.log()`
   * Variable asignation using of reserved word `var`
   * Use of arithmetic operator `+ - * / %`
@@ -16,7 +20,8 @@
 
 [Clase 2 - 2019 / 07 / 31](../../tree/class/2019-07-31)
   * Review of previus class themes
-  * Use of `typeof` and the characteristics by data type
+  * Data types and their characteristics
+  * Use of `typeof` 
   * Comparation with `== !=` and `=== !==`
   * Control structure `if{...} else if{...} else{...}` 
 
@@ -25,6 +30,7 @@
   * String interpolation `${string}`
   * Manipulate numbers with `++` `--` `+=` `-=` `=+` `=-` 
   * Introduction to `Arrays`
+  * Introduction to `Loops`
 
 [Clase 4 - 2019 / 08 / 02](../../tree/class/2019-08-02)
 
