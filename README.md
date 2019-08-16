@@ -100,3 +100,18 @@
   * Dynamically adding `eventListeners` to DOM Objects
   * Changing DOM Objects properties using events
 
+#### [Class 13 - 2019 / 08 / 15](../../tree/class/2019-08-16)
+  * Review of previous class
+  * Remove Event Listeners
+  * Event Propagation
+    * Boobling
+    * Capturing
+  * HTTP Methods `GET` `POST` `PUT` `PATCH` `DELETE`
+  * HTTP Request Object
+    * Ready State
+    * Status
+  * What is a `JSON`
+  * What is `AJAX`
+  * Use of `AJAX` and HTTP Methods to `get` data from local `JSON`
+
+#### [Class 14 - 2019 / 08 / 16](../../tree/class/2019-08-16)
