@@ -93,3 +93,10 @@
   * Use of JS function in HTML `Buttons`
 
 #### [Class 12 - 2019 / 08 / 14](../../tree/class/2019-08-14)
+  * Review of previous class
+  * What is the `BOM`
+  * What are `events`
+  * `Event Listeners` in HTML tags
+  * Dynamically adding `eventListeners` to DOM Objects
+  * Changing DOM Objects properties using events
+
