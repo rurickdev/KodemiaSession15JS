@@ -1,0 +1,15 @@
+.first{
+  width: 50vw;
+  height: 50vh;
+  background-color: chartreuse;
+}
+.second{
+  width: 30vw;
+  height: 30vh;
+  background-color: coral;
+}
+.third{
+  width: 15vw;
+  height: 15vh;
+  background-color: black;
+}
